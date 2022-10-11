@@ -12,4 +12,17 @@ TODO: need to be done
 
 4.push to main
 
+## out => in
+0.关闭changeid https://gerrit-review.googlesource.com/Documentation/config-project-config.html#project-section
+
+1.wget 获取patch文本
+
+2.传输到etx
+
+3.git am应用patch
+
+//4.git commit --amend --no-edit 添加changeid （需要去掉）
+
+4.git push origin HEAD:refs/for/master 提patch
+
 
